@@ -80,7 +80,7 @@ export default function LiveDemo() {
 
                 {/* Play button overlay */}
                 <a
-                  href="https://youtu.be/your-demo-link"
+                  href="https://youtu.be/218OunA_5Vw"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute inset-0 flex items-center justify-center group/play"
@@ -102,7 +102,7 @@ export default function LiveDemo() {
             </div>
 
             <p className="text-center text-slate-500 text-sm mt-3">
-              Demo video · Replace with your Loom/YouTube link
+              Strategic Monitoring Demo · NASA Earth Observations
             </p>
           </motion.div>
 

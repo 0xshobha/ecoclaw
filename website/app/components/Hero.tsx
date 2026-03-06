@@ -190,7 +190,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <a
-            href="https://t.me/your_ecoclaw_bot"
+            href="https://t.me/ecoclaw_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl
