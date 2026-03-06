@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy:          #0A1F44;
+  --color-navy-light:    #0D2952;
+  --color-navy-dark:     #060F22;
+  --color-navy-card:     #0B2250;
+  --color-forest:        #1E5B3F;
+  --color-forest-light:  #2A7A55;
+  --color-teal:          #00D4FF;
+  --color-teal-dim:      #00B8D9;
+  --color-teal-10:       #00D4FF1A;
+  --color-teal-20:       #00D4FF33;
+  --font-sans:           var(--font-space-grotesk);
+  --font-mono:           var(--font-space-mono);
+}
+
+:root {
+  --background: #0A1F44;
+  --foreground: #e2e8f0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, system-ui, sans-serif);
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #060F22; }
+::-webkit-scrollbar-thumb { background: #00D4FF44; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #00D4FF88; }
+
+/* Circuit pattern overlay — solid dot grid, no radial blobs */
+.circuit-bg {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cpath d='M10 10 L50 10 L50 50 L10 50 Z' fill='none' stroke='%2300D4FF' stroke-opacity='0.05' stroke-width='0.5'/%3E%3Ccircle cx='10' cy='10' r='1.5' fill='%2300D4FF' fill-opacity='0.07'/%3E%3Ccircle cx='50' cy='10' r='1.5' fill='%2300D4FF' fill-opacity='0.07'/%3E%3Ccircle cx='50' cy='50' r='1.5' fill='%2300D4FF' fill-opacity='0.07'/%3E%3Ccircle cx='10' cy='50' r='1.5' fill='%2300D4FF' fill-opacity='0.07'/%3E%3Cpath d='M30 10 L30 30 M10 30 L30 30' fill='none' stroke='%2300D4FF' stroke-opacity='0.04' stroke-width='0.5'/%3E%3C/svg%3E");
+}
+
+/* Teal glow utility */
+.glow-teal {
+  box-shadow: 0 0 20px #00D4FF33, 0 0 40px #00D4FF15;
+}
+.glow-teal-sm {
+  box-shadow: 0 0 10px #00D4FF25;
+}
+.text-glow-teal {
+  text-shadow: 0 0 20px #00D4FF88;
+}
+
+/* Brand accent text — solid, no gradients */
+.gradient-text      { color: #00D4FF; }
+.gradient-text-teal { color: #00D4FF; }
+
+/* Cards — solid, no glass blur */
+.glass-card {
+  background: #0D2952;
+  border: 1px solid rgba(0, 212, 255, 0.13);
+}
+.glass-nav {
+  background: #060F22e6;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+@keyframes pulse-ring {
+  0%   { transform: scale(0.8); opacity: 0.7; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+@keyframes draw-line {
+  from { stroke-dashoffset: 200; }
+  to   { stroke-dashoffset: 0; }
+}
+@keyframes ndvi-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+@keyframes scan-line {
+  0%   { transform: translateY(-100%); opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { transform: translateY(400%); opacity: 0; }
+}
+
+.animate-float   { animation: float 4s ease-in-out infinite; }
+.animate-float-slow { animation: float 6s ease-in-out infinite; }
+.animate-shimmer { animation: shimmer 3s linear infinite; background-size: 200%; }
