@@ -1,6 +1,7 @@
 "use client";
 
 import { Github, ExternalLink, Send, Heart, Leaf } from "lucide-react";
+import Image from "next/image";
 
 const footerLinks: Record<string, { label: string; href: string; external: boolean }[]> = {
   Product: [
@@ -10,9 +11,9 @@ const footerLinks: Record<string, { label: string; href: string; external: boole
     { label: "Live Demo", href: "#demo", external: false },
   ],
   Resources: [
-    { label: "GitHub Repository", href: "https://github.com/your-org/ecoclaw", external: true },
-    { label: "Documentation", href: "https://github.com/your-org/ecoclaw#readme", external: true },
-    { label: "DoraHacks Submission", href: "https://dorahacks.io", external: true },
+    { label: "GitHub Repository", href: "https://github.com/0xshobha/ecoclaw", external: true },
+    { label: "Documentation", href: "https://github.com/0xshobha/ecoclaw#readme", external: true },
+    { label: "DoraHacks Submission", href: "https://dorahacks.io/bounty/ecoclaw", external: true },
     { label: "OpenClaw Docs", href: "https://openclaw.io/docs", external: true },
   ],
   Sponsors: [
@@ -32,8 +33,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 rounded-xl bg-teal/15 border border-teal/25 flex items-center justify-center text-xl">
-                🌍
+              <div className="w-9 h-9 rounded-xl bg-teal/15 border border-teal/25 flex items-center justify-center overflow-hidden p-1.5">
+                <Image src="/logo.png" alt="EcoClaw" width={24} height={24} className="w-full h-full object-contain" />
               </div>
               <span className="font-bold text-xl">
                 <span className="text-white">Eco</span>
@@ -46,7 +47,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com/your-org/ecoclaw"
+                href="https://github.com/0xshobha/ecoclaw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-3 py-2 rounded-lg border border-slate-700 hover:border-teal/40 text-slate-400 hover:text-white text-sm transition-all"

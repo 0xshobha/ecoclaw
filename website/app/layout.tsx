@@ -15,7 +15,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ecoclaw.vercel.app"),
+  metadataBase: new URL("https://ecoclaw.io"),
   title: "EcoClaw — Autonomous Climate Agents That Actually Act",
   description:
     "Satellite-powered multi-agent swarm that detects climate threats, predicts impacts, posts on-chain alerts and mints NFT rewards in real time. Built for UK AI Agent Hackathon EP4 × OpenClaw.",

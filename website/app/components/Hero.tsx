@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Github, Zap } from "lucide-react";
+import Image from "next/image";
 
 /* ─── Animated NDVI Canvas background ──────────────────────────────────── */
 function NdviCanvas() {
@@ -123,11 +124,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mb-6 flex items-center justify-center"
+          className="mb-8 flex items-center justify-center"
         >
           <div className="relative animate-float">
-            <div className="absolute -inset-4 rounded-3xl bg-teal/10 blur-2xl" />
-            <div className="relative text-7xl md:text-8xl select-none">🌍</div>
+            <div className="absolute -inset-8 rounded-full bg-teal/20 blur-3xl opacity-50" />
+            <div className="relative w-28 h-28 md:w-32 md:h-32 p-4 bg-navy-light/40 border border-teal/20 rounded-3xl backdrop-blur-sm flex items-center justify-center">
+              <Image src="/logo.png" alt="EcoClaw" width={100} height={100} className="w-full h-full object-contain filter drop-shadow-[0_0_15px_rgba(45,212,191,0.3)]" />
+            </div>
           </div>
         </motion.div>
 
@@ -199,7 +202,7 @@ export default function Hero() {
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="https://github.com/your-org/ecoclaw"
+            href="https://github.com/0xshobha/ecoclaw"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl

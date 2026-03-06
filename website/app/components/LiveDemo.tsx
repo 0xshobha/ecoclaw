@@ -166,7 +166,7 @@ export default function LiveDemo() {
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="https://t.me/your_ecoclaw_bot"
+                href="https://t.me/ecoclaw_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-3 px-5 rounded-xl

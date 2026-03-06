@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Github, ExternalLink, Menu, X, Zap } from "lucide-react";
+import Image from "next/image";
 
 const links = [
   { label: "How it Works", href: "#how-it-works" },
@@ -35,7 +36,7 @@ export default function Navbar() {
         <a href="#" className="flex items-center gap-2.5 group">
           <div className="relative w-9 h-9 flex items-center justify-center">
             <div className="absolute inset-0 rounded-xl bg-teal/15 border border-teal/25 group-hover:bg-teal/25 transition-all duration-300" />
-            <span className="relative text-xl leading-none select-none">🌍</span>
+            <Image src="/logo.png" alt="EcoClaw" width={24} height={24} className="relative z-10 object-contain" />
           </div>
           <span className="font-bold text-xl tracking-tight">
             <span className="text-white">Eco</span>
@@ -61,7 +62,7 @@ export default function Navbar() {
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="https://github.com/your-org/ecoclaw"
+            href="https://github.com/0xshobha/ecoclaw"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 text-sm text-slate-300 hover:text-white border border-slate-600 hover:border-slate-400 rounded-lg transition-all duration-200"
@@ -113,7 +114,7 @@ export default function Navbar() {
               ))}
               <div className="pt-3 flex flex-col gap-2 border-t border-slate-700/50">
                 <a
-                  href="https://github.com/your-org/ecoclaw"
+                  href="https://github.com/0xshobha/ecoclaw"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-slate-300 hover:text-white"
