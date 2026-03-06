@@ -1,0 +1,34 @@
+# ── Core async HTTP ─────────────────────────────────────────────
+aiohttp>=3.9.5
+httpx>=0.27.0
+
+# ── Telegram bot ─────────────────────────────────────────────────
+python-telegram-bot[job-queue]>=21.3
+
+# ── LLM / OpenAI-compatible (FLock + Z.AI endpoints) ────────────
+openai>=1.35.0
+
+# ── Satellite & image analytics ─────────────────────────────────
+Pillow>=10.3.0
+numpy>=1.26.4
+opencv-python-headless>=4.9.0.80
+matplotlib>=3.9.0
+scikit-image>=0.23.2
+
+# ── Web3 / Animoca (Base chain) ──────────────────────────────────
+web3>=6.19.0
+eth-account>=0.11.2
+
+# ── Config & validation ──────────────────────────────────────────
+pydantic>=2.7.3
+pydantic-settings>=2.3.4
+python-dotenv>=1.0.1
+
+# ── Logging ──────────────────────────────────────────────────────
+loguru>=0.7.2
+
+# ── Resilience ───────────────────────────────────────────────────
+tenacity>=8.4.1
+
+# ── Scheduling (cron jobs) ───────────────────────────────────────
+APScheduler>=3.10.4

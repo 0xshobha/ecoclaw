@@ -1,0 +1,79 @@
+**Hackathon Summary**
+
+The UK AI Agent Hackathon EP4 x OpenClaw is a high-stakes, hybrid event (in-person at Imperial College London + online) running March 1–7, 2026, with submissions due by March 8, 05:29 UTC (about 4 days left as of now). It's the 4th edition, but this one's a **Special Edition powered by OpenClaw**—the viral open-source AI agent framework (formerly Clawdbot/Moltbot) that's exploding in hype with 200k+ GitHub stars. Focus: **Production-ready AI agents and multi-agent systems**, blending AI orchestration, autonomous workflows, Web3 infrastructure, and real-world integrations.
+
+It's builder-first for ~900+ students, researchers, and founders from UK/Europe. Expect:
+- **Workshops & mentorship**: Hands-on with OpenClaw tools, sponsor APIs, and sessions from Peter Steinberger (OpenClaw founder), Thomas Wolf (Hugging Face co-founder), and VCs like Ada Ventures/Fabric.
+- **Hybrid vibes**: In-person at Imperial for opening ceremony (March 1), build sprints (March 5–6), and demo day (March 7). Online submissions via DoraHacks.
+- **Prize pool**: $13k USD total, plus sponsor bounties (up to 10 per project/BUIDL). Main prizes for top agents; bounties for sponsor integrations.
+- **Perks**: Free OpenAI Codex credits, 1-month Lovable sub for all participants. Emphasis on **shipping live, interacting agents** (not just demos)—using real infra like APIs, on-chain data, and protocols.
+
+It's a launchpad: Many past winners turned prototypes into startups. Theme screams "agents that *do* things" via OpenClaw's core (local/server agent that chats via Telegram/WhatsApp/Slack, uses LLMs, browser tools, file ops, cron jobs, etc.).
+
+**Twitter (X) Insights, Tips & Buzz (from recent searches)**
+
+I scanned X for "UK AI Agent Hackathon EP4", "OpenClaw hackathon", etc. (Feb 1–March 3, 2026). It's buzzing—900+ registered, "insane energy," teams shipping 24/7. Key takeaways:
+- **Build real, not flashy**: Posts stress "production-ready multi-agent systems with live infra" (e.g., FLock API for cheap models). One winner from a prior BNB x OpenClaw hack: "Turned ambition into shipped code—transaction firewall agent."
+- **OpenClaw is the star**: Use it as backbone. Tips: Extend with custom skills (e.g., Discord actions, persistent sessions). Contributors hyping "agent-native tooling" for orchestration.
+- **Sponsor gold**: Z.AI pushing "compound AI systems" and startup infra (DM them for access). FLock: "Hands-on with API Platform for multi-agent." Animoca/Compression: Web3 + real data (e.g., satellite).
+- **Community hacks**: Attend "sponsor primers" (e.g., Z.AI, Anyway, Unibase on agenda). Discord (discord.gg/8jvkHztnAM) for Q&A—teams coordinating there. "Obsessed with shipping fast" vibe from Z.AI posts.
+- **Pro tips from winners/past**: Integrate 3+ sponsors for bounties (e.g., "FLock for good agents"). Hybrid = network at Imperial for mentorship. "Biggest OpenClaw week ever"—workshops March 5–6.
+- **Hype posts**: Imperial Blockchain (@iclblockchain) and FLock (@flock_io) pumping it. Recent: "Teams hacking nonstop" (March 3). Avoid: Pure demos—judges want "agents that interact with live data/protocols."
+- **Watch for**: CEO Claw Challenge mentions (AfterQuery ties to quant/data agents). No major drama, just builder momentum.
+
+No super-specific "win hacks" yet (event's young), but pattern: **Multi-agent on OpenClaw + sponsor SDKs = bounty magnets**. Join X convos with @imperialaisoc, @openclaw, @iclblockchain for real-time tips.
+
+**Guide to Maximize Bounties (Aim for 5–8+)**
+
+Bounties total ~$13k+ (GBP/USD mix). **One BUIDL can claim up to 10**—design a **modular multi-agent system** on OpenClaw that touches *multiple* tracks. Judging favors integration, usability, innovation, and "real-world" (deployed, live demos).
+
+**Step-by-Step Plan (4 Days Left—Move Fast)**:
+1. **Register & Team Up (Today)**: DoraHacks.io/hackathon/1985. Solo OK, but teams (2–5) win more. Post "Joining EP4—OpenClaw multi-agent" on Discord/X. Free credits unlock immediately.
+2. **Setup OpenClaw Core (1–2 hours)**: Install (one-liner on Linux/Mac/Windows). Connect LLM (use free OpenAI Codex). Add channels (Telegram for demo). Test basic agent (e.g., "book flight").
+3. **Sponsor Research & Access (Day 1)**:
+   - **Biggest: FLock.io (5k USDT, AI Agents for Good)**: Their API (OpenAI-compatible, cheap federated models). Build "for good" (e.g., climate aid).
+   - **Z.AI (4k USD, General)**: Compound AI infra (chat.z.ai). DM @Dameng21189493 for startup program—great for orchestration.
+   - **Animoca Brands (1k USD)**: Web3 gaming/NFTs. On-chain agent actions.
+   - **Compression Company (1k GBP, Satellite Imagery)**: Agent for image analysis (e.g., disaster monitoring).
+   - **AfterQuery (CEO Claw, 1k USD)**: Data/query agents for "CEO challenges" (quant backtesting?).
+   - **Imperial Blockchain (2x 500 USD)**: "Claw for Human" (human-in-loop agents), "Human for Claw" (agents serving humans). Tie to OpenClaw symbiosis.
+   - **BioHack (250 GBP)**: Bio data agents (easy add-on).
+   - **AnyWay (1 Mac Mini)**: Automation workflows.
+   - Others (Lovable, Virtual Protocol, Unibase, Sierra.ai, Cantor8, BGA): Web3 data, agent protocols, good causes.
+4. **Build Strategy**: **One project, many modules**. Use OpenClaw as "brain" for multi-agents. Deploy to VPS (always-on). Demo via live chat.
+   - **Hit 7+ bounties**: Core agent + 4–5 sponsor plugins.
+   - **Submit**: DoraHacks BUIDL with video (5-min demo), code, integrations proof. Tag bounties in description.
+5. **Polish & Submit (Days 3–4)**: Test live (e.g., agent analyzes real satellite data). Get mentor feedback in workshops. Deadline: March 8—submit early.
+6. **Pro Tips**:
+   - **Live > Demo**: Use real APIs (FLock for models, Unibase for on-chain data).
+   - **Web3 x AI**: Add blockchain (e.g., agent trades NFTs via Animoca).
+   - **Team Roles**: 1x OpenClaw dev, 1x sponsor integrator, 1x UI/demo.
+   - **Network**: Hit Imperial if local; else Discord/X for collabs.
+   - **Avoid Pitfalls**: No vague ideas—judges (sponsors/VCs) want "shipped on emerging ecosystem."
+
+**Project Ideas (Tailored to Max Bounties)**
+
+Focus on **multi-agent ecosystems** (OpenClaw strength: orchestration via tools/cron). All deployable, bounty-friendly. Pick one, fork OpenClaw repo, extend.
+
+1. **EcoClaw: AI Agent Network for Climate Good** (Hits FLock 5k, Compression 1k GBP, Animoca 1k, BGA, Z.AI, Imperial)
+   - **What**: OpenClaw multi-agents: One scrapes/analyzes satellite imagery (Compression SDK) for deforestation/floods; another predicts via FLock models; Web3 agent crowdsources data on-chain (Animoca NFT rewards); Z.AI for compound reasoning; Claw chat for humans to query/report.
+   - **Why Win**: "For Good" + satellite + Web3. Deploy: Live Telegram bot flags alerts. Bounties: 5–7 easy.
+   - **Tech**: OpenClaw + FLock API + satellite APIs (e.g., free NASA) + Base/Unibase for on-chain.
+
+2. **CEOClaw: Autonomous Executive Agent** (Hits CEO Claw 1k, Z.AI 4k, AfterQuery, Imperial 1k, AnyWay)
+   - **What**: Personal CEO assistant on OpenClaw (inbox/email/calendar via tools). Multi-agents: Research (Z.AI compound), quant analysis (AfterQuery backtester), automation (AnyWay). Human-in-loop for approvals.
+   - **Why Win**: Ties to "CEO Challenge." Demo: "Negotiate deal" via browser. Add Claw "for human" symbiosis.
+   - **Tech**: OpenClaw skills + Z.AI + data queries.
+
+3. **BioGuard Agent Swarm** (Hits BioHack 250 GBP, FLock 5k, Z.AI 4k, Sierra.ai, Imperial)
+   - **What**: OpenClaw agents for bio research: Analyze public datasets (e.g., proteins), simulate via FLock, Z.AI for insights. Swarm coordinates (e.g., one agent fetches, another models). Web3 for data sharing (BGA good).
+   - **Why Win**: BioTrack easy; stack with good agents. Low-hanging for students (use public bio libs).
+   - **Tech**: OpenClaw + BioPython (code exec) + FLock models.
+
+4. **Hybrid Agent Marketplace** (Hits 8+ including Virtual Protocol, Unibase, Animoca)
+   - **What**: Platform where users deploy OpenClaw agents; marketplace on Web3 (Virtual Protocol for agent NFTs?). Agents handle tasks like satellite analytics + good causes. Claw UI for "hire an agent."
+   - **Why Win**: Covers bronze/gold. Scalable demo.
+
+**Quick Wins**: Start with OpenClaw template. Fork GitHub/openclaw. Add 2 sponsor SDKs today. Video demo: "Watch agent analyze satellite + alert on-chain."
+
+This setup could net $10k+ if executed. Ship fast—momentum is high. Questions on a specific idea? Ping Discord. Go build! 🦞

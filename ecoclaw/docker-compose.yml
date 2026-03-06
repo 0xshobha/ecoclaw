@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  ecoclaw:
+    build: .
+    container_name: ecoclaw_bot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "python", "-c", "from config.settings import settings; print(settings.mock_mode)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
