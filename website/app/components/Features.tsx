@@ -8,6 +8,8 @@ import {
   Link2,
   Shield,
   Users,
+  Zap,
+  ArrowRight,
 } from "lucide-react";
 
 const features = [
@@ -136,6 +138,31 @@ export default function Features() {
           ))}
         </div>
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.6 }}
+        className="mt-16 flex flex-col items-center gap-6"
+      >
+        <div className="h-px w-24 bg-teal/20" />
+        <a
+          href="https://t.me/ecoclawedbot"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center gap-3 px-8 py-4 rounded-2xl bg-navy-light border border-teal/20 hover:border-teal/50 hover:bg-navy-light/80 transition-all duration-300 shadow-xl shadow-teal/5"
+        >
+          <div className="w-10 h-10 rounded-xl bg-teal/10 flex items-center justify-center group-hover:bg-teal/20 transition-colors">
+            <Zap size={20} className="text-teal" fill="currentColor" />
+          </div>
+          <div className="text-left">
+            <div className="text-xs text-teal font-bold uppercase tracking-widest mb-0.5">Ready to Test?</div>
+            <div className="text-white font-bold text-lg">Try These Features on Telegram</div>
+          </div>
+          <ArrowRight size={20} className="text-teal group-hover:translate-x-1 transition-transform ml-4" />
+        </a>
+      </motion.div>
     </section>
   );
 }

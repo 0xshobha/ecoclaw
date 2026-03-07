@@ -125,7 +125,7 @@ export default function LiveDemo() {
                 </div>
                 <div className="flex items-center gap-2 text-xs text-slate-400 ml-2">
                   <Terminal size={12} />
-                  <span>@EcoClawBot — Telegram</span>
+                  <span>@ecoclawedbot — Telegram</span>
                 </div>
               </div>
 
@@ -166,7 +166,7 @@ export default function LiveDemo() {
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="https://t.me/ecoclaw_bot"
+                href="https://t.me/ecoclawedbot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-3 px-5 rounded-xl

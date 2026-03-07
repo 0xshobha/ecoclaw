@@ -48,7 +48,7 @@ All agents implement the `BaseAgent` interface (OpenClaw-compatible). The orches
 ### 1 · Clone & configure
 
 ```bash
-git clone https://github.com/your-org/ecoclaw
+git clone https://github.com/0xshobha/ecoclaw
 cd ecoclaw
 cp .env.example .env
 # Edit .env with your API keys
@@ -126,13 +126,13 @@ ecoclaw/
 
 ## Telegram Commands
 
-| Command                      | Description                   |
-| ---------------------------- | ----------------------------- |
-| `/scan amazon deforestation` | Run the full 4-agent pipeline |
-| `/status`                    | Last scan summary             |
-| `/register 0x…`              | Link wallet for NFT rewards   |
-| `/agents`                    | List loaded agents            |
-| `/help`                      | Welcome message               |
+| Command                      | Description                                                                  |
+| ---------------------------- | ---------------------------------------------------------------------------- |
+| `/scan amazon deforestation` | Run the full 4-agent pipeline via [@ecoclawedbot](https://t.me/ecoclawedbot) |
+| `/status`                    | Last scan summary                                                            |
+| `/register 0x…`              | Link wallet for NFT rewards                                                  |
+| `/agents`                    | List loaded agents                                                           |
+| `/help`                      | Welcome message                                                              |
 
 Free-text climate queries (e.g. "scan for floods in UK") trigger a human-in-the-loop confirmation keyboard before agents are dispatched.
 

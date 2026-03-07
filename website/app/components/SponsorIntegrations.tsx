@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { DollarSign, ExternalLink } from "lucide-react";
+import { DollarSign, ExternalLink, Zap, ArrowRight } from "lucide-react";
 
 const sponsors = [
   {
@@ -191,6 +191,25 @@ export default function SponsorIntegrations() {
               <div className="text-slate-400 text-sm">7+ sponsor integrations · UK AI Agent Hackathon EP4</div>
             </div>
           </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="mt-12 flex justify-center"
+          >
+            <a
+              href="https://t.me/ecoclawedbot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-6 py-3 rounded-xl bg-navy-light border border-teal/20 hover:border-teal/40 text-teal hover:text-teal-dim transition-all"
+            >
+              <Zap size={16} fill="currentColor" />
+              <span className="text-sm font-bold uppercase tracking-wider">Launch Bot & Verified Integrations</span>
+              <ArrowRight size={16} className="ml-1" />
+            </a>
+          </motion.div>
         </motion.div>
       </div>
     </section>

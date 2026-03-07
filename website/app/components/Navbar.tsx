@@ -71,7 +71,7 @@ export default function Navbar() {
             <span>Star on GitHub</span>
           </a>
           <a
-            href="https://t.me/your_ecoclaw_bot"
+            href="https://t.me/ecoclawedbot"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-4 py-1.5 text-sm font-medium text-navy-dark bg-teal hover:bg-teal-dim rounded-lg transition-all duration-200 glow-teal-sm hover:scale-105"
@@ -124,7 +124,7 @@ export default function Navbar() {
                   <ExternalLink size={12} />
                 </a>
                 <a
-                  href="https://t.me/your_ecoclaw_bot"
+                  href="https://t.me/ecoclawedbot"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 py-2 px-4 text-sm font-medium text-navy bg-teal rounded-lg"
