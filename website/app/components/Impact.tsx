@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Trophy, Zap, Calendar, Target } from "lucide-react";
+import { Trophy, Zap, Calendar, Target, Send, ArrowRight } from "lucide-react";
 
 const bounties = [
   { sponsor: "FLock.io", amount: "$5,000", tag: "AI Agents for Good", color: "#6366F1" },
@@ -160,6 +160,33 @@ export default function Impact() {
                 </div>
               </motion.div>
             ))}
+
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
+            >
+              <a
+                href="https://t.me/ecoclawedbot"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between p-5 rounded-2xl bg-teal hover:bg-teal-dim transition-all duration-300 group shadow-lg shadow-teal/20"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-navy-dark/30 flex items-center justify-center">
+                    <Send size={22} className="text-navy-dark" />
+                  </div>
+                  <div className="text-navy-dark">
+                    <div className="font-bold text-lg leading-tight">Join the Swarm</div>
+                    <div className="text-xs font-medium opacity-80 uppercase tracking-wider">Start Scanning Now</div>
+                  </div>
+                </div>
+                <div className="w-10 h-10 rounded-full bg-navy-dark flex items-center justify-center group-hover:translate-x-1 transition-transform">
+                  <ArrowRight size={18} className="text-teal" />
+                </div>
+              </a>
+            </motion.div>
           </div>
         </div>
       </div>

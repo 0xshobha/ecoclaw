@@ -6,10 +6,11 @@ import {
   Clock,
   Eye,
   Users,
-  Zap,
   Globe,
   ShieldCheck,
   TrendingUp,
+  Zap,
+  ArrowRight,
 } from "lucide-react";
 
 const problems = [
@@ -178,6 +179,26 @@ export default function ProblemSolution() {
                   </div>
                 </motion.div>
               ))}
+
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.5, duration: 0.5 }}
+                className="mt-8"
+              >
+                <a
+                  href="https://t.me/ecoclawedbot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl
+                  bg-teal/10 border border-teal/25 text-teal hover:bg-teal/20 transition-all duration-300"
+                >
+                  <Zap size={18} fill="currentColor" />
+                  <span className="font-bold">Test the Solution in Telegram</span>
+                  <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                </a>
+              </motion.div>
             </div>
           </div>
         </div>
