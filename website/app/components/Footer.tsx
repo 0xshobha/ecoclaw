@@ -20,7 +20,7 @@ const footerLinks: Record<string, { label: string; href: string; external: boole
     { label: "FLock.io", href: "https://flock.io", external: true },
     { label: "Z.AI", href: "https://z.ai", external: true },
     { label: "Animoca Brands", href: "https://animocabrands.com", external: true },
-    { label: "Virtual Protocol", href: "#", external: false },
+    { label: "Virtual Protocol", href: "https://virtuals.io", external: true },
   ],
 };
 
@@ -56,7 +56,7 @@ export default function Footer() {
                 GitHub
               </a>
               <a
-                href="https://t.me/your_ecoclaw_bot"
+                href="https://t.me/ecoclawedbot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-3 py-2 rounded-lg bg-teal/15 border border-teal/25 text-teal hover:bg-teal/25 text-sm transition-all"

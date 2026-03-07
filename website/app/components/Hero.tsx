@@ -175,7 +175,7 @@ export default function Hero() {
           >
             <span className="w-2 h-2 rounded-full bg-teal animate-pulse flex-shrink-0" />
             <span>ecoclaw</span>
-            <span className="text-teal font-bold">.vercel.app</span>
+            <span className="text-teal font-bold">.a2zbtc.com</span>
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" className="opacity-50 group-hover:opacity-100 transition-opacity">
               <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
@@ -190,7 +190,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <a
-            href="https://t.me/ecoclaw_bot"
+            href="https://t.me/ecoclawedbot"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl

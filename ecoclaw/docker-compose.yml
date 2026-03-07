@@ -3,7 +3,7 @@ version: "3.9"
 services:
   ecoclaw:
     build: .
-    container_name: ecoclaw_bot
+    container_name: ecoclawedbot
     restart: unless-stopped
     env_file: .env
     volumes:
